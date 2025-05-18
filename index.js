@@ -10,7 +10,6 @@ app.get('/', (req, res) => {
 app.get('/twitter',(req,res)=>{
   res.send('mohitdotcom')
 })
-
 app.get('/login',(req,res)=>{
   res.send('<h1>please login</h1>')
 })
